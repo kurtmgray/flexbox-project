@@ -1,0 +1,135 @@
+* {
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    flex: 1 0 800px
+}
+
+.header, .container.hero, .footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 100px;
+    gap: 16px
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.header_links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+a, .text, .footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-overflow: wrap;
+    
+}
+
+.top {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 20px;
+    border-radius: 8px;
+    margin-top: 8px;
+    border: none
+}
+
+.container.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+
+.info_header, .info_items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.item {
+    padding: 20px;
+    flex: 0
+}
+
+.info_items .text {
+    text-align: center;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.container.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.actual {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 50px 170px
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 170px;
+    margin-top: -50px;
+    font-size: 24px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 50px 100px;
+    border-radius: 8px;
+    gap: 100px;
+    background-color: #3882f6;
+}
+
+.right .sign-up {
+    border: 2px solid #e5e7eb;
+}
